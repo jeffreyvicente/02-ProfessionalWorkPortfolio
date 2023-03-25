@@ -41,7 +41,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## Preview
 
-View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/horiseon-s3-homepage-update/)
+View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/professional-work-portfolio/)
 
 ![alt text](assets/images/default-image-placeholder.jpg)
+
+## Wireframe Concept
+
+![alt text](assets/images/site-wireframe.png)
+
+<div align="center">Orginal wireframe concept of the portfolio webpage</div>
 
