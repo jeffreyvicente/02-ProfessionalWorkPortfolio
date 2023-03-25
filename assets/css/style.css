@@ -1,0 +1,172 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #274472;
+    color: white;
+    align-items: center;
+
+}
+
+.header h1{
+    font-size: 225%;
+}
+
+.header nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+    
+    
+}
+
+.header nav a{
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+
+
+
+
+
+
+/*
+.header h1{
+    display: inline-block;
+}
+
+.header div{
+    padding: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+ .header ul{
+    list-style-type: none;
+ }
+
+ .header li {
+    display: inline-block;
+    margin-left: 25px;
+ }
+ 
+ .header a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+*/
+
+
+p {
+    font-size: 16px;
+}
+
+
+
+.hero-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/placeholder-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.hero-text {
+    text-align: right;
+  
+  
+    color: blue;
+}
+
+
+
+
+
+
+/*Footer Logic*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+    list-style-type: none;
+  }
+
+  footer h2 {
+    margin: 2% 0;
+    font-size: 200%;
+  }
+   
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+    align-items: center;
+   
+ 
+  }
+
+
+
+footer li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+ }
+
+ footer a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 150%;
+  }
+  
+@media screen and (max-width: 768px){
+    .header{
+        flex-direction: column;
+        padding: 0%;
+    }
+    .header h1{
+        font-size: 200%;
+        text-align: center;
+    }
+    #first-header{
+       margin-left: 30px;
+    }
+    
+}
