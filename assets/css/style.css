@@ -9,7 +9,6 @@ body {
 }
 
 
-
 /*CSS code for the header/nav bar*/
 .header{
     display: flex;
@@ -43,7 +42,6 @@ body {
 
 
 
-
 /*Start of the CSS for the hero image*/
 .hero-image {
     height: 300px;
@@ -63,13 +61,12 @@ body {
   
 }
 
-
 /*End of the CSS for the hero image*/
 
-.headshot-photo{
-    position: relative;
-  
-   
+
+/*Start of the CSS default attributes */
+img {
+    border: 5px solid orange;
 }
 
 p {
@@ -104,9 +101,21 @@ section {
     flex-basis: 20%;
     border-color: purple;
     margin-left: 5px;
+}
+
+
+/*End of the CSS deafault attributes
+
+
+
+/*Start of the CSS for the about me section */
+.headshot-photo{
+    position: relative;
+  
    
 }
 
+/* The Start of the CSS attributes for the Project section */
 .container{
     display:flex;
     flex-wrap: wrap;
@@ -118,17 +127,6 @@ section {
     margin: 10px;
 }
 
-
-
-img {
-    border: 5px solid orange;
-}
-
-.container img{
-    width: 300px;
-}
-
-
 .project-info {
     padding: 5px;
     bottom: 20px;
@@ -137,8 +135,18 @@ img {
     font-size: 20px;
     color: white;
     background-color: orange;
-
 }
+
+.container img{
+    width: 300px;
+}
+
+
+ /* The end of the CSS attributes for the Projects sections*/
+
+
+
+
 
 
 
@@ -164,6 +172,7 @@ img {
 
 
 /*Start of the footer CSS*/
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -177,9 +186,10 @@ footer{
 footer ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
-    list-style-type: none;
-    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    align-items: left;
   }
 
 footer li {
@@ -194,6 +204,12 @@ footer li {
     text-decoration: none;
     font-size: 100%;
   }
+.contact-list{
+    flex:150;
+}
+
+
+
 
 
 /*End of the footer CSS*/
