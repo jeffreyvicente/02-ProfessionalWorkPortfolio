@@ -201,8 +201,12 @@ section {
 
 
 /*End of the footer CSS*/
-  
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+    .about a{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 580px){
     .header{
         flex-direction: column;
         padding: 0%;
@@ -214,29 +218,47 @@ section {
     #first-header{
        margin-left: 30px;
     }
-    .project-section{
+
+
+
+    section{
+        padding:15px 15px;
+    }
+    .section-detail{
         flex-direction: column;
     }
+    
     .section-title{
-        font-size: 200%;
-        align-items: center;
-    }
 
-    footer {
-        flex-direction: column;
-    }
-
-    footer ul {
-        flex-direction: column;
-    }
-
-    .content-wrapper {
-        width: 100%;
-    }
-
-    footer ul li {
-        padding: 10px;
+        padding-top: 0px;
         text-align: center;
+        flex-direction: column;
+        font-size: 35px;
+        border-bottom: 10px solid;
+        border-right:none;
+        border-color: purple;
     }
+    
+    p{
+        flex-direction: column;
+        justify-content: center;
+        display: contents;
+
+    }
+
+    .headshot-photo img{
+        justify-content: center;
+        max-width: 100%;
+    
+        
+      
+       
+    }
+
+
+
+
+
+ 
     
 }
