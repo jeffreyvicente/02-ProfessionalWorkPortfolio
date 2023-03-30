@@ -57,11 +57,8 @@ body {
     background-size: cover;
     
 }
-
-
-
-
 /*End of the CSS for the hero image*/
+
 
 
 /*Start of the CSS default attributes */
@@ -104,22 +101,17 @@ section {
     border-color: #f19c73;
     margin-left: 5px;
 }
-
+.headshot-photo img{
+    position: relative;
+    max-width: 400px;
+    margin-top: 25px;
+}
 
 /*End of the CSS deafault attributes
 
 
 
-/*Start of the CSS for the about me section */
-.headshot-photo img{
-    position: relative;
-    max-width: 400px;
-    margin-top: 25px;
 
-    
-  
-   
-}
 
 /* The Start of the CSS attributes for the Project section */
 .container{
@@ -148,21 +140,15 @@ section {
 .container img{
     width: 300px;
 }
-#main-mega-image{
-    width: 400px;
-}
 
-
- /* The end of the CSS attributes for the Projects sections*/
+/* The end of the CSS attributes for the Projects sections*/
 
 
 
 
 
 
-
-
-
+/*Start of the CSS for the about me section */
  .about{
     display: flex;
     justify-content: space-between;
@@ -198,10 +184,9 @@ section {
     margin-left: 150px;
    
   }
+/*End of the CSS for the about me section */
 
-
-
-/*End of the footer CSS*/
+/*Start of CSS for devices the size of tablets with a max width of 768px*/
 @media screen and (max-width: 768px) {
   
 
@@ -251,9 +236,11 @@ section {
         margin-left: 0px;
 
     }
-
-
 }
+
+/*End of CSS for devices the size of tablets with a max width of 768px*/
+
+/*Start of CSS for devices the size of tablets with a max width of 580px*/
 @media screen and (max-width: 580px){
     .header{
         flex-direction: column;
@@ -303,13 +290,9 @@ section {
     .headshot-photo img{
         justify-content: center;
         max-width: 100%;
-    
-        
-      
-       
     }
 
-
+/*Start of CSS for devices the size of tablets with a max width of 580px*/
 
 
 
