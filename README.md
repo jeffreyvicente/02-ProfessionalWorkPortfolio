@@ -6,6 +6,9 @@ A portfolio of work can showcase your skills and talents to employers looking to
 
 This project is to showcase what I have recently learned in class.
 
+Page is reactive for phones when the max pixel width is at 580px.<br>
+Page is reactive for tablets when the max pizel width is at 768px. 
+
 
 ## Page Setup
 
@@ -42,12 +45,35 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Preview
 
 View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/professional-work-portfolio/)
+<br>
+<p align="left">
+    <img src = "assets/images/readme-screenshot-normal.png" alt="Image" width="50%" height="50%"> 
+    <br>
+    Webpage screenshot viewed in browser
+    <br>
+    <br>
+    <br>
+    <img src = "assets/images/readme-screenshot-tablet.png" alt="Phone Preview of webage" width="20%" height="20%">
+    <br>
+    Webpage screenshot viewed in tablet window
+    <br>
+    <br>
+    <br>
+    <img src = "assets/images/readme-screenshot-phone.png" alt="Phone Preview of webage" width="20%" height="20%">
+    <br>
+    Webpage screenshot viewed in phone window
+</p>
 
-![alt text](assets/images/default-image-placeholder.jpg)
 
 ## Wireframe Concept
 
-![alt text](assets/images/site-wireframe.png)
+<p align="left">
+    <img src = "assets/images/site-wireframe.png" alt="Image" width="60%" height="60%"> 
+    <br>
+    Orginal wireframe concept of the portfolio webpage
+    
+</p>
 
-<div align="center">Orginal wireframe concept of the portfolio webpage</div>
+
+
 
