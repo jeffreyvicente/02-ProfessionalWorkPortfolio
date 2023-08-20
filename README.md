@@ -9,8 +9,16 @@ This project is to showcase what I have recently learned in class.
 Page is reactive for phones when the max pixel width is at 580px.<br>
 Page is reactive for tablets when the max pizel width is at 768px. 
 
+## Table of Contents
+- [Installation](#installation)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Preview](#preview)
+- [Features](#wireframe-concept)
+- [Technology Used](#technologies-used)
 
-## Page Setup
+
+## Installation
 
 - Download or clone repository to your local machine. 
 - Navigate to the to the file. 
@@ -44,7 +52,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## Preview
 
-View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/professional-work-portfolio/)
+View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/02-ProfessionalWorkPortfolio/)
 <br>
 <p align="left">
     <img src = "assets/images/readme-screenshot-normal.png" alt="Image" width="50%" height="50%"> 
@@ -74,6 +82,9 @@ View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/prof
     
 </p>
 
+## Technology Used
+- HTML
+- CSS
 
 
 
